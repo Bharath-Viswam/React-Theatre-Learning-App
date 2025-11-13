@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Theatre-Learning-App/static/css/main.f855e6bc.css",
+    "main.js": "/React-Theatre-Learning-App/static/js/main.b8d6dde5.js",
+    "static/js/453.8e830d95.chunk.js": "/React-Theatre-Learning-App/static/js/453.8e830d95.chunk.js",
+    "index.html": "/React-Theatre-Learning-App/index.html",
+    "main.f855e6bc.css.map": "/React-Theatre-Learning-App/static/css/main.f855e6bc.css.map",
+    "main.b8d6dde5.js.map": "/React-Theatre-Learning-App/static/js/main.b8d6dde5.js.map",
+    "453.8e830d95.chunk.js.map": "/React-Theatre-Learning-App/static/js/453.8e830d95.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.b8d6dde5.js"
+  ]
+}
