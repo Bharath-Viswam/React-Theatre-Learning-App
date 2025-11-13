@@ -8,7 +8,7 @@ function App(): JSX.Element {
 const portalName: string = "Kerala Theatre Portal";
 return (
 <div>
-<h1>Kerala Theatre Potal</h1>
+<h1>Kerala Theatre Portal</h1>
 <Welcome name="Bharath" />
 <MovieInfo title="Inception" language="English" rating={8.8} />
 <MovieInfo title="Parasite" language="Korean" rating={9.2} />
