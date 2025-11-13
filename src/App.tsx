@@ -1,26 +1,22 @@
-import React from 'react';
+import React, { JSX } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Welcome from './components/Welcome';
+import MovieInfo from './components/MovieInfo';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function App(): JSX.Element {
+const portalName: string = "Kerala Theatre Portal";
+return (
+<div>
+<h1>Kerala Theatre Potal</h1>
+<Welcome name="Bharath" />
+<MovieInfo title="Inception" language="English" rating={8.8} />
+<MovieInfo title="Parasite" language="Korean" rating={9.2} />
+<MovieInfo title="Interstellar" language="English" rating={8.6} />
+
+</div>
+);
 }
-
 export default App;
+
+
